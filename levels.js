@@ -2,7 +2,7 @@ var clicks = 0;
 function custom(num){
     switch(num){
         case 1:
-        new JSAnimation(1, "font-size: 50px;", "bigBtn", true).runAnimation();
+        new JSAnimation(1, "font-size: 20px;", "bigBtn", true).runAnimation();
         document.getElementById('title').innerText = "Please turn your phone volume on.";
         document.getElementById('yes').onclick = function(){custom(2)};
         break;
