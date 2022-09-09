@@ -2,19 +2,19 @@ var clicks = 0;
 function custom(num){
     switch(num){
         case 1:
-        new JSAnimation(1, "font-size: 20px;", "bigBtn", true).runAnimation();
+        new JSAnimation(1, "font-size: 40px;", "bigBtn", true).runAnimation();
         document.getElementById('title').innerText = "Please turn your phone volume on.";
         document.getElementById('yes').onclick = function(){custom(2)};
         break;
         case 2:
         document.getElementById('title').innerText = "Woohoo!";
-        new JSAnimation(1, "position: absolute;left: 300px;", "bigBtn", true).runAnimation();
+        new JSAnimation(1, "position: absolute;left: 250px;", "bigBtn", true).runAnimation();
         document.getElementById('yes').onclick = function(){custom(3)};
         break;
         case 3:
         new JSAnimation(1, "position: absolute;left: 20px;", "bigBtn", true).runAnimation();
         document.getElementById('title').innerText = "Happy birthday!";
-        new JSAnimation(1, "font-size: 100px; text-align: center; position: absolute; top: 20%;", "title", true).runAnimation();
+        new JSAnimation(1, "font-size: 55px; text-align: center; position: absolute; top: 20%; left: 0px;", "title", true).runAnimation();
         document.getElementById('buttons').style.display = "none";
         setTimeout(() => {
         document.getElementById('ch').classList.add('rainbowFlash');
