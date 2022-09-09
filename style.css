@@ -18,6 +18,7 @@ div.center > *{text-align:center;}
     90%{background-color:blue;}
 }
 .rainbowFlash2{animation: rainbowFlash2 4s;animation-iteration-count: 2;}
+.rainbowFlash3{animation: rainbowFlash2 4s infinite;}
 @keyframes rainbowFlash2{
     0%{color:red;}
     10%{color:orange;}
