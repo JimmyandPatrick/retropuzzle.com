@@ -33,6 +33,6 @@ function changeCakes(){
 }
 function playSong(){
     document.getElementById('vc').style.display = "none";
-    window.location = 'https://www.jimmyandpatrick.github.io/retropuzzle.com/birthday.mp3';
-    
+    var birthdaySong = new Audio('https://www.jimmyandpatrick.github.io/retropuzzle.com/birthday.mp3');
+    birthdaySong.play();
 }
