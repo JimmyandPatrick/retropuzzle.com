@@ -40,3 +40,4 @@ img.spin{animation: spin 5s infinite;}
 @keyframes spin{
     100%{transform:rotateZ(360deg);}
 }
+#confetti{position: absolute; left: 0px; top: 15px;}
